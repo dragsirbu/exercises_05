@@ -1,1 +1,1 @@
-# exercises_git
+# DNP Exercises - Git
