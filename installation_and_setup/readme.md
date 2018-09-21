@@ -4,24 +4,19 @@
 
 To get up and running you need to install the Git client software. It is available for Windows, Linux and Mac and are found at https://git-scm.com/downloads.
 
-1. Download and execute the installer
-
-![alt](./download.png)
-
-2. Accept defaults when asked what components to install
-
-![alt](./components.png)
-
-3. To be able to use Git in the windows command prompt go with the second option (default), when asked to adjust you PATH environment.
-
-
-4. Use the OpenSSL library for HTTPS
-
-
-5. Checkout Windows-style
-
-
-6. Accept the defaults for the remaining of the installation wizard.
+1. Download and execute the installer.  
+    ![alt](./download.png)
+1. Accept defaults when asked what components to install.  
+    ![alt](./01_components.png)
+1. Leave **Nano** as the default editor.   
+    ![alt](./02_editor.png)
+1. To be able to use Git in the windows command prompt go with the second option (default), when asked to adjust you PATH environment.  
+    ![alt](./03_path.png)
+1. Use the OpenSSL library for HTTPS.  
+    ![alt](./04_https_transport.png)
+1. Checkout Windows-style.  
+    ![alt](./05_line_endings.png)
+1. Accept the defaults for the remaining of the installation wizard.
 
 ## Verify Your installation
 
