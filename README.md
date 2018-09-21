@@ -2,7 +2,7 @@
 
 ## Exercise 1
 
-[Follow this guide to complete the exercise](./installation_and_setup/README.md)
+[Follow this guide to complete the first exercise](./installation_and_setup/README.md)
 
 ## Exercise 2
 
@@ -39,7 +39,7 @@ Using the same repository, make some changes to the local repository. Next, make
 
 ## Exercise 6
 
-Clone this remote repository to your local machine (yes, the exercises themselves are actually a repository!). The repository should be cloned with a new name: “DNPisKing”. Next, display all of the commits of the repository in a terminal, each commit being on a single line. Make changes to the README.cd file and add a few new files. Commit all changes at once and try pushing them to the remote repo. What happens? Create a new GitHub repository and push your changes to this remote instead.
+Clone this remote repository to your local machine (yes, the exercises themselves are actually a repository!). The repository should be cloned with a new name: “DNPisKing”. Next, display all of the commits of the repository in a terminal, each commit being on a single line. Make changes to the README.md file and add a few new files. Commit all changes at once and try pushing them to the remote repo. What happens? Create a new GitHub repository and push your changes to this remote instead.
 
 *Consider:*
 
