@@ -2,11 +2,11 @@
 
 ## Exercise 1
 
-[Follow this guide to complete the exercise](./installation_and_setup/readme.md)
+[Follow this guide to complete the exercise](./installation_and_setup/README.md)
 
 ## Exercise 2
 
-Create a new Github account (or log in to an existing one). On your Github account, create a new online repository (do NOT initialize it with a README or .gitignore file).
+Create a new GitHub account (or log in to an existing one). On your GitHub account, create a new online repository (do NOT initialize it with a README or .gitignore file).
 
 ## Exercise 3
 
@@ -20,7 +20,7 @@ Open a command prompt in a folder on your computer. Turn the directory into a Gi
 
 ## Exercise 4
 
-Edit a file directly in your remote repository through the GitHub web interface. After having made the change on the Github web interface, use git log to compare your local repository history with the remote one on Github. You should have one fewer commit in your local repository. Pull the changes that your local repository is missing from your remote repository.
+Edit a file directly in your remote repository through the GitHub web interface. After having made the change on the GitHub web interface, use git log to compare your local repository history with the remote one on GitHub. You should have one fewer commit in your local repository. Pull the changes that your local repository is missing from your remote repository.
 
 *Consider:*
 
