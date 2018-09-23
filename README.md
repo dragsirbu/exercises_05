@@ -61,3 +61,25 @@ Initialize a new git repository in an empty folder. Add a README.md file to this
 ## Exercise 8
 
 Create an online repository (on GitHub) for your SEP3-project. Invite the other group members to collaborate with you on the project (so that they can make changes to the remote repository). Any members that you share the project with should have their own local repository using the same remote. For now, the repository will not contain any code, but you can start filling out the README file with information relevant to your project.
+
+## Exercise 9
+
+*This exercise is best done two and two, or in your SEP3 group.*
+
+Make a fork of the repository holding the [exercises from last week](../exercises_04) to your own account. Make everyone collaborators on the repository, and clone the repository on your local machines.
+
+Now implement the exercises (copy them if you did already). Each exercise should be committed on its own branch. When the exercise is done, push your branch to origin, make a *pull request* and invite your groupmates as reviewers. 
+
+*Consider:*
+
+- *What value does it bring doing a pull request instead of simply merging into master?*
+
+## Exercise 10
+
+Review each others exercises from exercise 9 and give constructive feedback. 
+
+Update your branch based on the feedback you get, and merge to master (remember to pull changes from the master to your branch and fix potential conflicts before merging)
+
+*Consider:*
+
+- *What could happen if you did not pull changes from the master to your branch before merging the pull request?*
