@@ -64,7 +64,7 @@ Create an online repository (on GitHub) for your SEP3-project. Invite the other 
 
 ## Exercise 9
 
-*This exercise is best done two and two, or in your SEP3 group.*
+*This and the following exercise is best done two and two, or in your SEP3 group.*
 
 Make a fork of the repository holding the [exercises from last week](../exercises_04) to your own account. Make everyone collaborators on the repository, and clone the repository on your local machines.
 
