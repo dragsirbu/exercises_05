@@ -10,7 +10,7 @@ Create a new GitHub account (or log in to an existing one). On your GitHub accou
 
 ## Exercise 3
 
-Open a command prompt in a folder on your computer. Turn the directory into a Git repository by initializing a new, empty git repository in this folder. Add a README.md file with some content to your local repository. Commit the file with git commit. Add the remote GitHub repository to your local repository. Finally, push your local changes to the remote repository.
+Open a command prompt in a folder on your computer. Turn the directory into a Git repository by initializing a new, empty Git repository in this folder using [git init](https://git-scm.com/docs/git-init). Add a README.md file with some content to your local repository. Remember to add the file to the index/staging area by running [git add](https://git-scm.com/docs/git-add) before commiting. Commit the file using [git commit](https://git-scm.com/docs/git-commit). Add the remote GitHub repository to your local repository using [git remote](https://git-scm.com/docs/git-remote). Finally, push your local changes to the remote repository using [git push](https://git-scm.com/docs/git-push).
 
 *Consider:*
 
@@ -20,7 +20,7 @@ Open a command prompt in a folder on your computer. Turn the directory into a Gi
 
 ## Exercise 4
 
-Edit a file directly in your remote repository through the GitHub web interface. After having made the change on the GitHub web interface, use git log to compare your local repository history with the remote one on GitHub. You should have one fewer commit in your local repository. Pull the changes that your local repository is missing from your remote repository.
+Edit a file directly in your remote repository through the GitHub web interface. After having made the change on the GitHub web interface, use [git log](https://git-scm.com/docs/git-log) to compare your local repository history with the remote one on GitHub. You should have one fewer commit in your local repository. Pull the changes that your local repository is missing from your remote repository.
 
 *Consider:*
 
@@ -29,17 +29,17 @@ Edit a file directly in your remote repository through the GitHub web interface.
 
 ## Exercise 5
 
-Using the same repository, make some changes to the local repository. Next, make some different changes to the remote repository. Commit the changes to both the local and remote repository. Try pushing your local changes to the remote repository which now contains its own changes. What happens? Find a way to synchronize the two repositories.
+Using the same repository, make some changes to the local repository. Inspect the changes you have made by using [git diff](https://git-scm.com/docs/git-diff). Next, make some different changes to the remote repository. Commit the changes to both the local and remote repository. Try pushing your local changes to the remote repository which now contains its own changes. What happens? Find a way to synchronize the two repositories, keeping all of the changes if possible.
 
 *Consider:*
 
-- *Git fetch and git merge might come in handy here.*
+- *[git fetch](https://git-scm.com/docs/git-fetch) and [git merge](https://git-scm.com/docs/git-merge) might come in handy here.*
 - *If you aren’t expecting any merge conflicts, you can simply use git pull to retrieve the remote repo changes and merge them with your local repository.*
 - *Try introducing a merge conflict by editing a line in the same file in both the local and remote repository (have the line say something different in each repository). Then try synchronizing the two repositories by solving the merge conflict.*
 
 ## Exercise 6
 
-Clone this remote repository to your local machine (yes, the exercises themselves are actually a repository!). The repository should be cloned with a new name: “DNPisKing”. Next, display all of the commits of the repository in a terminal, each commit being on a single line. Make changes to the README.md file and add a few new files. Commit all changes at once and try pushing them to the remote repo. What happens? Create a new GitHub repository and push your changes to this remote instead.
+Clone this remote repository to your local machine (yes, the exercises themselves are actually a repository!) using [git clone](https://git-scm.com/docs/git-clone). The repository should be cloned with a new name: “DNPisKing”. Next, display all of the commits of the repository in a terminal, each commit being on a single line, using [git log](https://git-scm.com/docs/git-log). Make changes to the README.md file and add a few new files. Commit all changes at once and try pushing them to the remote repo. What happens? Create a new GitHub repository and push your changes to this remote instead.
 
 *Consider:*
 
@@ -68,7 +68,7 @@ Create an online repository (on GitHub) for your SEP3-project. Invite the other 
 
 Make a fork of the repository holding the [exercises from last week](../exercises_04) to your own account. Make everyone collaborators on the repository, and clone the repository on your local machines.
 
-Now implement the exercises (copy them if you did already). Each exercise should be committed on its own branch. When the exercise is done, push your branch to origin, make a *pull request* and invite your groupmates as reviewers. 
+Now implement the exercises (copy them if you did already). Each exercise should be committed on its own branch. When the exercise is done, push your branch to origin, make a *pull request* and invite your groupmates as reviewers.
 
 *Consider:*
 
@@ -76,7 +76,7 @@ Now implement the exercises (copy them if you did already). Each exercise should
 
 ## Exercise 10
 
-Review each others exercises from exercise 9 and give constructive feedback. 
+Review each others exercises from exercise 9 and give constructive feedback.
 
 Update your branch based on the feedback you get, and merge to master (remember to pull changes from the master to your branch and fix potential conflicts before merging)
 
