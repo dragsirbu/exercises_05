@@ -66,7 +66,7 @@ Create an online repository (on GitHub) for your SEP3-project. Invite the other 
 
 *This and the following exercise is best done two and two, or in your SEP3 group.*
 
-Make a fork of the repository holding the [exercises from last week](../exercises_04) to your own account. Make everyone collaborators on the repository, and clone the repository on your local machines.
+Make a fork of the repository holding the [exercises from last week](https://github.com/it-dnp1-a18/exercises_04) to your own account. Make everyone collaborators on the repository, and clone the repository on your local machines.
 
 Now implement the exercises (copy them if you did already). Each exercise should be committed on its own branch. When the exercise is done, push your branch to origin, make a *pull request* and invite your groupmates as reviewers.
 
