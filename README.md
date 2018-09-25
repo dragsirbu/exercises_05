@@ -1,4 +1,4 @@
-# DNP Exercises - Version Control
+# DNP Exercises 04 - Version Control
 
 ## Exercise 1
 
