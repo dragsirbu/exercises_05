@@ -22,6 +22,9 @@ Open a command prompt in a folder on your computer. Turn the directory into a Gi
 
 Edit a file directly in your remote repository through the GitHub web interface. After having made the change on the GitHub web interface, use [git log](https://git-scm.com/docs/git-log) to compare your local repository history with the remote one on GitHub. You should have one fewer commit in your local repository. Pull the changes that your local repository is missing from your remote repository.
 
+
+//Dragos was here 
+
 *Consider:*
 
 - *Making commits manually this way is not best practice, and you should always work locally on a project and then push the changes to the remote repository. This trick simply lets us simulate commits being made on the remote repository but not in the local repository.*
